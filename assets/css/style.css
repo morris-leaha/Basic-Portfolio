@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto;
+    background-image: url("../images/rockywall_@2X.png");
+    background-repeat: no-repeat;
+    background-image: center;
+    background-size: cover;
+}
+
+header {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    border-bottom: 2px #cccccc solid;
+    position: relative; 
+    top: 0;
+    height: 80px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    position: relative;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    height: 38px;
+}
+
+nav {
+    color: #777777;
+    opacity: 0.70;
+    float: right;
+    position: relative;
+    padding: 30px 0;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.about-me {
+    /* clear: both; */
+    overflow: auto;
+    width: 960px;
+    margin: 0 auto;
+    border: 1px #dddddd solid;
+    background-color: #ffffff;
+}
+
+h2 {
+    margin: 30px 20px 25px 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr {
+    margin: 20px;
+    background-color: #777777;
+    border-width: 1.5px;
+    border-style: solid;
+    opacity: 0.3;
+}
+
+img {
+    float: left;
+    height: 330px;
+    width: 300px;
+    margin: 10px 20px 20px 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+    line-height: 2;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    height: 70px;
+    background-color: #666666;
+    margin-top: 100px;
+    border-top: 8px #4aaaa5 solid;
+    padding-top: 35px;
+    color: #dddddd;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
