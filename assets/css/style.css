@@ -9,11 +9,8 @@ body {
 }
 
 header {
-    color: #4aaaa5;
     background-color: #ffffff;
     border-bottom: 2px #cccccc solid;
-    position: relative; 
-    top: 0;
     height: 80px;
     margin-bottom: 40px;
     box-sizing: border-box;
@@ -35,20 +32,19 @@ h1 {
 }
 
 nav {
-    color: #777777;
-    opacity: 0.70;
+    opacity: 0.40;
     float: right;
     padding: 30px 0;
 }
 
 a.nav:link {
-    color: #777777;
+    color: #dddddd;
     text-decoration: none;
 }
 
 a.nav:visited {
     color: #202428;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a.nav:hover {
@@ -57,12 +53,12 @@ a.nav:hover {
 }
 
 a.nav:focus {
-    color: #4aaaa5;
+    color: #4aaaa5
     text-decoration: none;
 }
 
 a.nav:active {
-    color: #666666;
+    color: #202428;
     text-decoration: none;
 }
 
