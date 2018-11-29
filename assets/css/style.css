@@ -48,10 +48,15 @@ a.nav:link {
 
 a.nav:visited {
     color: #202428;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a.nav:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a.nav:focus {
     color: #4aaaa5;
     text-decoration: none;
 }
@@ -138,9 +143,55 @@ a.portfolio-image-labels:hover {
     text-decoration: none;
 }
 
+a.portfolio-image-labels:focus {
+    color: #666666;
+    text-decoration: none;
+}
+
 a.portfolio-image-labels:active {
     color: #666666;
     text-decoration: none;
+}
+
+.contact-box {
+    margin: 20px;
+}
+
+.contact-info {
+    display: block;
+}
+
+.title {
+    display: block;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    border: 1px #dddddd solid;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border-color: #dddddd;
+    box-sizing: border-box;
+}
+
+.submit > input {
+    width: 12%;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
 }
 
 .clearfix::after {
