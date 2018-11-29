@@ -53,7 +53,7 @@ a.nav:hover {
 }
 
 a.nav:focus {
-    color: #4aaaa5
+    color: #4aaaa5;
     text-decoration: none;
 }
 
